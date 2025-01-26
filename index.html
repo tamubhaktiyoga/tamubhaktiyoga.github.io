@@ -543,7 +543,23 @@
                         <h3>Newsletter </h3>
                         <input class="form-control" placeholder="Enter your email" type="type" name="Enter your email">
                         <button class="submit-btn">Subscribe</button>
+                        <!-- <p>You have visited this page <span id="visit-count"></span> times.</p> -->
                      </div>
+                     <p style="color:white">Website is visited <span id="visit-count">0</span> times.</p>
+                        <script>
+                           // Check if the visit count already exists in localStorage
+                           if (localStorage.getItem('visitCount')) {
+                                 // If it exists, increment the count
+                                 let visitCount = parseInt(localStorage.getItem('visitCount')) + 1;
+                                 localStorage.setItem('visitCount', visitCount);
+                           } else {
+                                 // If it doesn't exist, start with 1
+                                 localStorage.setItem('visitCount', 1);
+                           }
+
+                           // Display the current visit count on the webpage
+                           document.getElementById('visit-count').textContent = localStorage.getItem('visitCount');
+                        </script>
                   </div>
                </div>
             </div>
