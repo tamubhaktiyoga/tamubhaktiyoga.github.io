@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+Website for TAMU Bhakti Yoga Club
+
 <!--
 **tamubhaktiyoga/tamubhaktiyoga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
