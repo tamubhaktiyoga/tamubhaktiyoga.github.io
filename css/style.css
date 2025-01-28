@@ -2086,14 +2086,14 @@ ul.contant_icon li img {
 	padding: 4px 23px;
 border: #000 solid 1px;
 background: #000;
-color: #fc4311;
+color: white;
 font-weight: 500;
 font-size: 17px;}
 
 .footer .address .submit-btn:hover {
 	background: #fff;
     border: #fff solid 1px;
-    color: #fc4311;
+    color: red;
 }
 
 .copyright {
